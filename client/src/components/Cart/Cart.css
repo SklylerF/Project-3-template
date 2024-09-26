@@ -2,7 +2,7 @@
   z-index: 1;
   position: absolute;
   right: 0;
-  min-width: 100%;
+  min-width: 20%;
   max-width: 30%;
   max-height: 100%;
   background-color: white;
@@ -13,6 +13,12 @@
 
 .Total strong {
   font-size: 2rem;
+}
+
+.cartImg img {
+  width: 15vw;
+  vertical-align: middle;
+  margin: 0 auto;
 }
 
 button,
@@ -112,6 +118,7 @@ button,
 
 @media screen and (max-width: 768px) {
   .cart {
+    min-width: 100%;
     max-width: 100%;
     max-height: auto;
     box-shadow: none;
